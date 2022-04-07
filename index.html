@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pre-Advanced Lesson6</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<main class="profile-page">
+		<section class="register-form">
+			<p class="section-title">Будь ласка зареєструйтеся</p>
+			<form action="" name="sign" class="sign-up">
+				<div class="fild-wrap"><input type="text" name="name" placeholder="Ім'я" required></div>
+				<div class="fild-wrap"><input type="text" name="surname" placeholder="Прізвище" required></div>
+				<div class="fild-wrap message"><input type="email" name="mail" placeholder="Електронна адреса" required></div>
+				<div class="fild-wrap"><input type="password" name="pass" placeholder="Пароль" required></div>
+				<div class="fild-wrap submit"><input type="submit" name="up" value="Зареєструватися"></div>
+			</form>
+			<p class="change-form log" data-form="log-form">Я вже зареєстрованний. Ввійти</p>
+		</section>
+		<section class="log-form none">
+			<p class="section-title">Ввійдіть в обліковий запис</p>
+			<form action="" name="log" class="log-in">
+				<div class="fild-wrap"><input type="email" name="mail" placeholder="E-mail" required></div>
+				<div class="fild-wrap"><input type="password" name="pass" placeholder="Пароль" required></div>
+				<div class="fild-wrap submit"><input type="submit" name="in" value="Ввійти"></div>
+			</form>
+			<p class="change-form reg" data-form="register-form ">Зареєструватися</p>
+		</section>
+		<section class="profile none">
+			<img class="user-img" src="https://goldentaurus.com.ua/wp-content/uploads/2019/06/circled-user-male-skin-type-1-2.png" alt="Фото профілю">
+			<p class="user-name">Софія Стулій</p>
+			<p class="user-info email">sofis41bb@gmail.com</p>
+			<p class="user-info">Designer & Web Developer</p>
+			<hr width="150px" height="1px">
+			<button class="sign-up">Вийти</button>
+		</section>
+	</main>
+
+	<script src="./script.js"></script>
+</body>
+</html>
